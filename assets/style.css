@@ -11,15 +11,16 @@
 }
 /* creating the theme for the page, font and background color */
 body {
+    background: black;
     font-family:Arial, Helvetica, sans-serif
 }
 
 /* styling the header */
 header {
-    background: rgba(255, 255, 255, 0.904);
+    /* background: rgba(255, 255, 255, 0.904); */
+    background: black;
     padding: 10px;
     color:rgb(104, 104, 212);
-    
 }
 
 header h1 {
@@ -99,8 +100,9 @@ section {
 }
 
 .content {
-    background:rgba(255, 255, 255, 0.904);
+    /* background:rgba(255, 255, 255, 0.904); */
     /* background: linear-gradient(90deg,rgb(231, 213, 213) 0%,rgb(228, 198, 198) 35%,rgb(231, 213, 213) 100%); */
+    background: black;
     padding: 20px;
     width: 100%;
     flex-grow: 1 1 1;
@@ -126,7 +128,7 @@ section {
     max-width: 75%;
     margin-left: 20px;
     padding: 5px;
-    color:var(--light);
+    color:rgb(231, 213, 213);
     font-size: 150%
 }
  /* styling class two of main */
@@ -212,7 +214,7 @@ section {
     flex-shrink: 3 0 0;
     display: inline;
     padding-left: 0px;
-    color:rgb(47, 42, 56);
+    color:rgb(231, 213, 213);
     align-content: center;
 }
 
@@ -225,7 +227,7 @@ section {
     margin-left: 10px;
 }
 .tel::before {
-    content: '\260E';
+    content: '\1F4DE';
     margin-left: 10px;
 }
 .git::before {
