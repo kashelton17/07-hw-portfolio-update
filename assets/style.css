@@ -201,12 +201,13 @@ section {
     background-image: url('./images/06-hw-preview.png');
 }
 /* styling the contact section of main */
-.contact ul {
+.contact-div {
     display: inline;
     flex-wrap: wrap;
-    justify-content: flex-end;
     align-content: center;
-    margin-top: 2%;;
+    align-items: center;
+    margin-top: 35px
+
 }
 .contact {
     align-content: center;
@@ -280,6 +281,9 @@ section {
         font-size:120%
     }
 
+    .contact {
+        font-size: 100%
+    }
 }
 @media screen and (max-width: 980px) {
     header nav ul {
@@ -325,7 +329,7 @@ section {
         display: block;
         padding-bottom: 10px;
     }
-
+    
     .workcontent {
         display: flex;
         width: 45%;
