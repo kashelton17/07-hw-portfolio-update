@@ -8,5 +8,7 @@ link to page: https://kashelton17.github.io/07-hw-portfolio-update/
 ![preview image one](./assets/images/portfolio-preview-1.png)
 ![preview image two](./assets/images/portfolio-preview-2.png)
 
+Technologies used: HTML, CSS, Bootstrap v5.0, javascript
+
 License: MIT
 Contact info: kashelton17@gmail.com
