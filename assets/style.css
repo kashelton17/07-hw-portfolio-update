@@ -67,7 +67,7 @@ header nav ul {
 /* Placing an image as the background */
 .img-card {
     display: flex;
-    background: rgb(244, 246, 248)
+    background: rgb(218, 224, 230)
 }
 .image {
     width: 320px;
@@ -90,6 +90,7 @@ h5 {
     font-size: 150%;
     padding: 1%;
 }
+
 /* styling the sections in the body */
 section {
     display: flex;
@@ -109,7 +110,7 @@ section {
 }
 
 .subcontent {
-    margin: 10px;
+    margin: 1px;
 }
 
 /* Styling the headers within the content class */
@@ -140,26 +141,23 @@ section {
 }
 
 .workcontent div:hover {
-    border: solid white;
-    opacity: 1;
+
+    opacity: 0.75;
 }
 
 .workcontent div:hover > a {
-    border-bottom: solid white;
-    border-right: solid white;
-    border-top: solid white;
-    border-left: none;
+    background: rgb(61, 61, 61);
 }
 
 .workcontent div a{
     display: flex;
     height: 15%;
-    background:rgb(95, 126, 97);
-    color:white;
+    background:rgb(11, 12, 11);
+    color:rgb(231, 213, 213);
     padding: 4%;
-    margin-left: 0px;
+    margin-left: 25%;
     margin-bottom: 10px; 
-    border: solid grey;   
+    border-radius: 10px;
     text-decoration: none;
     text-align: left;
     font-size: 100%;
@@ -171,21 +169,21 @@ section {
     display: flex;
     flex-shrink: 1 0 0; 
     background-size: cover;
-    opacity: 75%;
+    opacity: 1;
     height: 300px;
     min-width: 400px;
     align-items: flex-end;
-    border: solid grey
+    
 }
 
-.workthree div{
-    background-image:url('./images/password-generator.png') ;
+.workone div{
+    background-image:url('./images/recipe-network-preview.png') ;
     
 }
 .worktwo div{
     background-image: url('./images/workday-screenshot.png');
 }
-.workone div{
+.workthree div{
     background-image: url('./images/06-hw-preview.png');
 }
 /* styling the contact section of main */
@@ -251,10 +249,21 @@ section {
         display: flex;
         flex-shrink: 1 0 0; 
         background-size: cover;
-        opacity: 75%;
-        height: 300px;
+        opacity: 1;
+        height: 230px;
         min-width: 230px;
         align-items: flex-end;
+
+    }
+    .workcontent div a {
+        background: black;
+        width: 75%;
+        padding: 4%;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        margin-left:15%;
+
     }
     .workone {
         min-width: 230px;
@@ -316,9 +325,12 @@ section {
         flex-flow: column wrap;
     }
     .workone {
-        min-width: 93%;
+        min-width: 90%;
     }
 
+    .worktwo, .workthree {
+        margin-left: 1px
+    }
 }
 /* creating styling changes for mobile screens */
 @media screen and (max-width: 695px) {
