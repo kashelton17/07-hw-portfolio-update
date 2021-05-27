@@ -141,28 +141,42 @@ section {
 }
 
 .workcontent div:hover {
-
     opacity: 0.75;
 }
 
-.workcontent div:hover > a {
-    background: rgb(61, 61, 61);
-}
-
 .workcontent div a{
-    display: flex;
     height: 15%;
-    background:rgb(11, 12, 11);
-    color:rgb(231, 213, 213);
+    width: 100%;
+    display: block;
+    
+    color:black;
+    font-weight: bolder;
     padding: 4%;
-    margin-left: 25%;
-    margin-bottom: 10px; 
-    border-radius: 10px;
     text-decoration: none;
     text-align: left;
     font-size: 100%;
     flex-shrink: inherit;
     flex-grow: 1 0 0;
+}
+
+.worktitle {
+    background:rgba(135, 206, 250, 0.445);
+    border: solid 1px lightskyblue;
+    text-align: center;
+}
+
+.github-link {
+    background: rgba(221, 160, 221, 0.541);
+    border: solid 1px plum;
+    margin-left: 2px;
+    text-align: center;
+}
+
+.worktitle:hover {
+    background: lightskyblue;
+}
+.github-link:hover {
+    background: plum
 }
 
 .workcontent div {
