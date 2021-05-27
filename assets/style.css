@@ -141,7 +141,7 @@ section {
 }
 
 .workcontent div:hover {
-    opacity: 0.75;
+    opacity: 0.85;
 }
 
 .workcontent div a{
@@ -270,14 +270,7 @@ section {
 
     }
     .workcontent div a {
-        background: black;
-        width: 75%;
-        padding: 4%;
-        text-align: center;
-        align-items: center;
-        align-content: center;
-        margin-left:15%;
-
+        height: 25%
     }
     .workone {
         min-width: 230px;
