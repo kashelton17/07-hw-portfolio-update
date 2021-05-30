@@ -423,6 +423,7 @@ section {
 @media screen and (max-width: 290px) {
     .content p {
         font-size: 90%;
+        margin: 0;
     }
     .contact-div {
         margin: 0;
