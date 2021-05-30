@@ -363,9 +363,13 @@ section {
     }
     .nav {
         display: inline-block;
+        align-content: center;
+        margin: 0px;
+        padding: 4px;
         width: 100%;
         font-size: 150%;
     }
+
     .image {
         margin-left: 25%;
         height: 300px;
