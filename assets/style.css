@@ -362,7 +362,7 @@ section {
         align-content: center;
     }
     .nav {
-        display: block;
+        display: inline-block;
         width: 100%;
         font-size: 150%;
     }
@@ -424,7 +424,10 @@ section {
     .content p {
         font-size: 90%;
     }
-    
+    .contact-div {
+        margin: 0;
+        display:inline-block
+    }
     .contact a {
         font-size: 90%;
         padding: 0px;
